@@ -25,7 +25,7 @@ Go to [anaconda download page](https://www.anaconda.com/download/) and download 
 ## 4. Install packages
 
 ```script
-  pip install torchvision numpy pandas matplotlib
+  pip install torchvision numpy pandas matplotlib seaborn argparse torch
 ```
 
 ## 5. Download flowers training data
@@ -53,4 +53,20 @@ root-folder/
 |- README.md
 |- train.py
 |- workspace-utils.py
+```
+
+## 6. Run notebook
+
+Open the notebook file `Image Classifier Project.ipynb` and click on the `Run All` button
+
+## 7. Training model
+
+```script
+  python train.py ./flowers
+```
+
+## 8. Run predict
+
+```script
+  python predict.py
 ```
